@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusSamples.Client", "BusSamples.Client\BusSamples.Client.csproj", "{BFB0FD44-DD60-4464-A151-E81AD08F9EE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic", "Basic", "{C73E836C-5085-4A5E-8A5D-0EBB1B8F6929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusSamples.Server", "BusSamples.Server\BusSamples.Server.csproj", "{711781D4-1214-41FA-AE2E-27864A5FCFD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusSamples.Messages", "BusSamples.Messages\BusSamples.Messages.csproj", "{315DC712-D379-4A77-B4C7-66EF6F4B4C8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFB0FD44-DD60-4464-A151-E81AD08F9EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB0FD44-DD60-4464-A151-E81AD08F9EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB0FD44-DD60-4464-A151-E81AD08F9EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB0FD44-DD60-4464-A151-E81AD08F9EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711781D4-1214-41FA-AE2E-27864A5FCFD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711781D4-1214-41FA-AE2E-27864A5FCFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711781D4-1214-41FA-AE2E-27864A5FCFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711781D4-1214-41FA-AE2E-27864A5FCFD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{315DC712-D379-4A77-B4C7-66EF6F4B4C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315DC712-D379-4A77-B4C7-66EF6F4B4C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315DC712-D379-4A77-B4C7-66EF6F4B4C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315DC712-D379-4A77-B4C7-66EF6F4B4C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFB0FD44-DD60-4464-A151-E81AD08F9EE6} = {C73E836C-5085-4A5E-8A5D-0EBB1B8F6929}
+		{711781D4-1214-41FA-AE2E-27864A5FCFD0} = {C73E836C-5085-4A5E-8A5D-0EBB1B8F6929}
+		{315DC712-D379-4A77-B4C7-66EF6F4B4C8A} = {C73E836C-5085-4A5E-8A5D-0EBB1B8F6929}
+	EndGlobalSection
+EndGlobal
